@@ -1,0 +1,48 @@
+@media (min-width: 900px) {
+  .fotos {
+    background-color: #d5c75f;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+  .fotos div {
+    width: 30%;
+    margin: auto;
+    padding: 2em 0;
+  }
+
+  .fotos img {
+    width: 100%;
+  }
+}
+@media (max-width: 899px) {
+  .fotos {
+    background-color: #d5c75f;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+  }
+  .fotos div {
+    width: 90%;
+    margin: auto;
+    padding: 2em 0;
+  }
+
+  .fotos img {
+    width: 100%;
+  }
+}
+.par {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.f1 {
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+.f3 {
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
